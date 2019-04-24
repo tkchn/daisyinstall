@@ -43,3 +43,17 @@ The upshot is that Mi A2 Lite doesn't have a recovery partition. Instead, when y
 * Copy anything you would like to install on your phone (Magisk, Gapps, modules, etc.) and flash it the usual way.
 * Reboot your phone
 
+## Dirty flashing / installing updates
+Installing ROM updates is also somewhat complicated on A/B phones like Xiaomi Mi A2 Lite. However, if you follow these steps, you should be good to go:
+
+* Download the update and copy it to your phone (in case of crDroid OTAs, you obviously don't need to do that since the updates are downloaded directly on your phone
+* Reboot into the recovery mode and flash the ROM ZIP.
+* Here's where the fun part begins: since we've just overwritten the boot partition, **we don't have TWRP anymore, so we need to flash it again.** 
+* Once again, after you're done, don't tap on "Reboot" yet, instead, go back to the main menu, change the slot, and then tap "Reboot".
+* After your phone has booted to the ROM, you might notice that Magisk is now gone. That's because Magisk's survival script doesn't work all that well on A/B phones.
+* Reboot into recovery again, and flash Magisk and Gapps. 
+
+Yes, developers and maintainers are aware that this process is ridiculously convoluted and makes no sense, and we're working on that. A/B devices are still relatively new and it will take some time for the developers to come up with a better way to flash custom ROMs. Be patient and use this guide. Thank you!
+
+### Credits
+@33bca for the device trees and TWRP
