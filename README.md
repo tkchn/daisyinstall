@@ -55,5 +55,17 @@ Installing ROM updates is also somewhat complicated on A/B phones like Xiaomi Mi
 
 Yes, developers and maintainers are aware that this process is ridiculously convoluted and makes no sense, and we're working on that. A/B devices are still relatively new and it will take some time for the developers to come up with a better way to flash custom ROMs. Be patient and use this guide. Thank you!
 
+
+## FAQ
+**Q:** I can't unlock my phone after flashing an update!
+**A:** Reboot into recovery and delete the file `/data/system/locksettings.db` and similiar files with different extensions (locksettings.shm, locksettings.wal, etc.)
+
+**Q:** I can't enroll a fingerprint! When I touch the sensor, nothing happens, or it goes almost until the end and then says "Enrollment was not finished"
+**A:** This happens when the fingerprint database is full. Reboot into recovery and delete `/persist/data/finger_0_x` (finger0_1, finger0_1.bak, finger0_2, etc.)
+
+**Q:** I still can't enroll a fingerprint
+**A:** Flash this fix: https://forum.xda-developers.com/attachment.php?attachmentid=4745543&d=1555675395
+
+
 ### Credits
 @33bca for the device trees and TWRP
