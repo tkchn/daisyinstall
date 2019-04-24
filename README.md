@@ -11,7 +11,7 @@
 ### Introduction
 Installing a custom ROM on an Android phone used to be a walk in the park. However, some newer phones, like Xiaomi Mi A2 Lite, have what's called an **A/B partition layout**. This facilitates an update process on stock ROMs, however it makes it harder to install and develop custom ROMs. You can read more about A/B partitions here: https://www.xda-developers.com/how-a-b-partitions-and-seamless-updates-affect-custom-development-on-xda/  
 
-The upshot is that Mi A2 Lite doesn't have a recovery partition. Instead, when you install TWRP, it gets installed in the boot partition. Which means that every time you install or update the ROM, you will need to re-flash the recovery ZIP. One more thing to keep in mind is that the ROM **always gets installed to another slot**. Meaning, if you're currently in the slot B, the ROM will be installed to the slot A, vice versa. 
+The upshot is that Mi A2 Lite doesn't have a recovery partition. Instead, when you install TWRP, it gets installed to the boot partition. Which means that every time you install or update a ROM, you will need to re-flash the recovery ZIP. One more thing to keep in mind is that the ROM **always gets installed to another slot**. Meaning, if you're currently in the slot B, the ROM will be installed to the slot A, vice versa. 
 
 ## Installation process
 
