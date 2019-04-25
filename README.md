@@ -58,7 +58,7 @@ Yes, developers and maintainers are aware that this process is ridiculously conv
 
 
 ## FAQ
-**Q:** I can't unlock my phone after flashing an update! 
+**Q:** I can't unlock my phone after flashing an update!  
 **A:** Reboot into recovery and delete the file `/data/system/locksettings.db` and similiar files with different extensions (locksettings.shm, locksettings.wal, etc.)
 
 
