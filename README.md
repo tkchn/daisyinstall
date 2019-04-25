@@ -58,18 +58,15 @@ Yes, developers and maintainers are aware that this process is ridiculously conv
 
 
 ## FAQ
-**Q:** I can't unlock my phone after flashing an update!
-
+**Q:** I can't unlock my phone after flashing an update! 
 **A:** Reboot into recovery and delete the file `/data/system/locksettings.db` and similiar files with different extensions (locksettings.shm, locksettings.wal, etc.)
 
 
-**Q:** I can't enroll a fingerprint! When I touch the sensor, nothing happens, or it goes almost until the end and then says "Enrollment was not finished"
-
+**Q:** I can't enroll a fingerprint! When I touch the sensor, nothing happens, or it goes almost until the end and then says "Enrollment was not finished"  
 **A:** This happens when the fingerprint database is full. Reboot into recovery and delete `/persist/data/finger_0_x` (finger0_1, finger0_1.bak, finger0_2, etc.)
 
 
-**Q:** I still can't enroll a fingerprint
-
+**Q:** I still can't enroll a fingerprint  
 **A:** Flash this fix: https://forum.xda-developers.com/attachment.php?attachmentid=4745543&d=1555675395
 
 
