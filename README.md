@@ -57,6 +57,14 @@ Installing ROM updates is also somewhat complicated on A/B phones like Xiaomi Mi
 Yes, developers and maintainers are aware that this process is ridiculously convoluted and makes no sense, and we're working on that. A/B devices are still relatively new and it will take some time for the developers to come up with a better way to flash custom ROMs. Be patient and use this guide. Thank you!
 
 
+### Seamless updates on ResurrectionRemix and LineageOS
+LOS Updater (which is also used in ResurrectionRemix) downloads the ROM ZIP automatically and installs it to the inactive slot, which spares us the need to reboot into recovery. However, there are a few gotchas:
+* After the OTA is installed, **DON'T TAP ON "REBOOT"**. Instead, go to Magisk Manager and install a module called "TWRP A/B Retention Script" (you should be able to find it in the "Downloads section")
+* Then, go to the Manager's main menu, tap on "Install" and choose "Install to inactive slot (After OTA)"
+* After the installation process is completed, you can reboot.
+You have to repeat the process every time you get an OTA if you want to keep Magisk and TWRP on your newly updated system. 
+
+
 ## FAQ
 **Q:** I can't unlock my phone after flashing an update!  
 **A:** Reboot into recovery and delete the file `/data/system/locksettings.db` and similiar files with different extensions (locksettings.shm, locksettings.wal, etc.)
