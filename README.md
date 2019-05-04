@@ -1,11 +1,11 @@
 # How to install a custom ROM on Xiaomi Mi A2 Lite
 
 ### Prerequisites
-* Official 10.3.0.0 firmware: http://bigota.d.miui.com/V10.0.3.0.PDLMIXM/daisy_global_images_V10.0.3.0.PDLMIXM_20190114.0000.00_9.0_e8d8d4a6d0.tgz
+* Official 10.3.0.0 firmware: http://bigota.d.miui.com/V10.0.3.0.PDLMIXM/daisy_global_images_V10.0.3.0.PDLMIXM_20190114.0000.00_9.0_e8d8d4a6d0.tgz (some people reported that 10.0.7.0 and later versions also work fine, however sometimes they might cause problems with Wi-Fi and cell connectivity, so I suggest you go with 10.3.0.0) 
 * Fastboot and ADB: https://www.xda-developers.com/google-releases-separate-adb-and-fastboot-binary-downloads/
 * Offain's TWRP image: https://androidfilehost.com/?fid=1395089523397933315
 * Offain's TWRP ZIP: https://androidfilehost.com/?fid=1395089523397933316
-* ForceEncryption disabler: https://zackptg5.com/downloads/Disable_Dm-Verity_ForceEncrypt_04.03.19.zip
+* ForceEncryption disabler: https://forum.xda-developers.com/attachment.php?attachmentid=4704479&d=1550012433
 * A custom ROM ZIP, for example crDroid: https://crdroid.net/daisy
 
 ### Introduction
