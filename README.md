@@ -36,10 +36,7 @@ The upshot is that Mi A2 Lite doesn't have a recovery partition. Instead, when y
   * TWRP ZIP
   * ForceEncryption Disabler
 * Don't install Magisk, GApps or anything else yet, we will do that later!
-* After everything is done, **DON'T TAP REBOOT YET**. Instead, go back to the main menu, choose "Reboot", change the slot (e.g. if it says "Current Slot: A", tap "Slot B", vice versa. Finally, tap "Reboot"
-
-#### 3. Post installation
-* After your phone has successfully booted into the ROM, turn your phone off, wait for a few seconds, then press Volume Up and Power buttons simultaneously for ~3 seconds. This will make your phone boot into recovery mode
+* After everything is done, **DON'T TAP REBOOT YET**. Instead, go back to the main menu, choose "Reboot", change the slot (e.g. if it says "Current Slot: A", tap "Slot B", vice versa. Quit the menu and tap "Recovery" in the reboot menu.
 * Copy anything you would like to install on your phone (Magisk, Gapps, modules, etc.) and flash it the usual way.
 * Reboot your phone
 
@@ -49,7 +46,7 @@ Installing ROM updates is also somewhat complicated on A/B phones like Xiaomi Mi
 * Download the update and copy it to your phone (in case of crDroid OTAs, you obviously don't need to do that since the updates are downloaded directly on your phone
 * Reboot into the recovery mode and flash the ROM ZIP.
 * Here's where the fun part begins: since we've just overwritten the boot partition, **we don't have TWRP anymore, so we need to flash it again.** 
-* Once again, after you're done, don't tap on "Reboot" yet, instead, go back to the main menu, change the slot, and then tap "Reboot to recovery".
+* Once again, after you're done, don't tap on "Reboot" yet, instead, go back to the main menu, change the slot, tap "Exit" and then "Recovery".
 * Once the phone boots into recovery again, flash Magisk and Gapps. 
 * Reboot the phone.
 
