@@ -74,12 +74,7 @@ You have to repeat the process every time you get an OTA if you want to keep Mag
 **Q:** I still can't enroll a fingerprint  
 **A:** Flash this fix: https://forum.xda-developers.com/attachment.php?attachmentid=4745543&d=1555675395
 
-**Q:** After enabling Camera2 API, stock camera doesn't work! And Google Camera says "Unable to connect to camera"  
-**A:** At the moment of writing this guide. Camera2 API doesn't work properly on custom ROMs. If this functionality is crucial for you, use Treble ROMs with Oreo base or stock ROM. 
-
-**Q:** USB options are greyed out and I can't choose Data Transfer  
-**A:** Go to Developer Settings > USB Preferences and choose "File Transfer"  
-
 
 ### Credits
 @33bca for the device trees and TWRP
+@Saksham033 for Camera2 API fix
